@@ -1,15 +1,13 @@
-# 素材权利与再分发状态
+# 素材权利 / Asset rights
 
-当前已导入三款可本地安装的发行资源，尚未公开发布，也尚未确认角色素材的公开再分发授权。
+本项目是非官方的爱好者重绘与动画资源包，不代表原游戏或 OpenAI。
 
-| 内容 | 当前处理 |
-| --- | --- |
-| 自行编写的安装脚本与测试 | 已实现；代码许可证待选定 |
-| 拉姆与超级拉姆形象 | 参考《摩尔庄园》已有角色；公开发行的权利依据待确认 |
-| 超能 NONO 形象 | 参考《赛尔号》已有角色；公开发行的权利依据待确认 |
-| 高清重绘图、动画与 AI 生成素材 | 记录制作来源；不因此宣称取得原角色权利 |
-| 原游戏截图、第三方参考图或生成工具代码 | 本次不打包再分发 |
+- 自行编写的安装脚本、测试及相关文档采用 [MIT 许可证](LICENSE)。
+- 拉姆、超级拉姆来自《摩尔庄园》；超能 NONO 来自《赛尔号》。角色形象、名称及相关权利归各自原权利方所有。
+- `pets/`、`source-art/`、`previews/` 中的角色素材不适用上述 MIT 代码许可证。AI 辅助重绘不改变原角色的权利归属。
+- 本项目不声称获得原作的官方授权，也不授予第三方角色素材的商用或再分发权利。使用者需要自行确认其用途所需的许可。
+- 本次未打包原游戏截图、第三方参考 GIF 或生成工具代码；制作参考见 [CREDITS.md](CREDITS.md)。
 
-代码许可证不自动适用于角色素材。标注来源、声明非官方或非商用，不作为已经取得公开再分发授权的证据。
+The original installer, tests, and associated documentation use the [MIT License](LICENSE). Lahm and Super Lahm originate in *Mole Manor*; Super NONO originates in *Seer*. The underlying characters, names, and related rights belong to their respective rights holders.
 
-发布前需要根据可核实的依据补充权利范围，与 `LICENSE`、`CREDITS.md` 及发行包保持一致。当前不要将整个包标记为 MIT、CC0 或可自由商用。
+Character assets in `pets/`, `source-art/`, and `previews/` are excluded from the code license. AI-assisted redrawing does not change ownership of the underlying characters. This project does not claim official authorization or grant commercial-use or redistribution rights for third-party character assets. Users must check the permissions required for their own use.

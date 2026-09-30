@@ -8,4 +8,4 @@ ID：`super-lahm-classic`。黄色圆体、三片柔曲金叶、相连大白眼�
 python3 scripts/install.py super-lahm-classic
 ```
 
-请从仓库根目录运行。查看 [动画预览](../../previews/super-lahm-classic/all-states.gif)、[安装说明](../../docs/installation.md) 和 [验证范围](../../docs/validation.md)。应用内运行尚未实测；素材权利参见 [ASSET_RIGHTS.md](../../ASSET_RIGHTS.md)。
+请从仓库根目录运行。查看 [动画预览](../../previews/super-lahm-classic/all-states.gif)、[安装说明](../../docs/installation.md) 和 [验证范围](../../docs/validation.md)。作者已反馈客户端实测正常；素材权利参见 [ASSET_RIGHTS.md](../../ASSET_RIGHTS.md)。

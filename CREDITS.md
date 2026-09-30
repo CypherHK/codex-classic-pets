@@ -10,4 +10,4 @@
 
 检查采用 `work-pets:create-pet` 0.1.6 的捆绑工具；这些生成和检查工具不是安装依赖，也未随本仓库复制。两款拉姆的高清基准图在 `source-art/`；NONO 本次提供最终精灵图和从其生成的预览，不将提取的单格冒称高清原图。
 
-资产公开再分发依据仍待确认，见 [ASSET_RIGHTS.md](ASSET_RIGHTS.md)。
+自有代码采用 MIT；角色素材不在该代码许可证范围内，见 [ASSET_RIGHTS.md](ASSET_RIGHTS.md)。

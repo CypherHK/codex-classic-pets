@@ -8,4 +8,4 @@ ID：`lahm-classic-orange`。暖橙色圆润身体、两片柔软绿叶、分离
 python3 scripts/install.py lahm-classic-orange
 ```
 
-请从仓库根目录运行。查看 [动画预览](../../previews/lahm-classic-orange/all-states.gif)、[安装说明](../../docs/installation.md) 和 [验证范围](../../docs/validation.md)。应用内运行尚未实测；素材权利参见 [ASSET_RIGHTS.md](../../ASSET_RIGHTS.md)。
+请从仓库根目录运行。查看 [动画预览](../../previews/lahm-classic-orange/all-states.gif)、[安装说明](../../docs/installation.md) 和 [验证范围](../../docs/validation.md)。作者已反馈客户端实测正常；素材权利参见 [ASSET_RIGHTS.md](../../ASSET_RIGHTS.md)。

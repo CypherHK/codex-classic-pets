@@ -8,10 +8,62 @@
 
 ## 先看看它们
 
-| 经典普通拉姆 | 经典超级拉姆 · 柔化版 | 超能 NONO |
-| --- | --- | --- |
-| ![橙色经典普通拉姆的完整状态动画](previews/lahm-classic-orange/all-states.gif) | ![经典超级拉姆柔化版的完整状态动画](previews/super-lahm-classic/all-states.gif) | ![超能 NONO 的完整状态动画](previews/super-nono/all-states.gif) |
-| 橙色圆团子、两片软软的绿叶。 | 黄色身体、三片柔曲金叶，保留经典超拉的样子。 | 蓝白色悬浮机器人、浅蓝电子表情。 |
+### 经典普通拉姆
+
+橙色圆团子、两片软软的绿叶。
+
+![经典普通拉姆完整状态动画](previews/lahm-classic-orange/all-states.gif)
+
+<details>
+<summary>再看看跳跃和转头</summary>
+
+跳跃衔接：
+
+![经典普通拉姆跳跃](previews/lahm-classic-orange/idle-jump-idle.gif)
+
+十六方向转头：
+
+![经典普通拉姆转头](previews/lahm-classic-orange/look-loop.gif)
+
+</details>
+
+### 经典超级拉姆 · 柔化版
+
+黄色身体、三片柔曲金叶，保留经典超拉的样子。
+
+![经典超级拉姆 · 柔化版完整状态动画](previews/super-lahm-classic/all-states.gif)
+
+<details>
+<summary>再看看跳跃和转头</summary>
+
+跳跃衔接：
+
+![经典超级拉姆 · 柔化版跳跃](previews/super-lahm-classic/idle-jump-idle.gif)
+
+十六方向转头：
+
+![经典超级拉姆 · 柔化版转头](previews/super-lahm-classic/look-loop.gif)
+
+</details>
+
+### 超能 NONO
+
+蓝白色悬浮机器人、浅蓝电子表情。
+
+![超能 NONO完整状态动画](previews/super-nono/all-states.gif)
+
+<details>
+<summary>再看看跳跃和转头</summary>
+
+跳跃衔接：
+
+![超能 NONO跳跃](previews/super-nono/idle-jump-idle.gif)
+
+十六方向转头：
+
+![超能 NONO转头](previews/super-nono/look-loop.gif)
+
+</details>
 
 GIF 展示完整状态序列。每只还有单状态预览、[跳跃衔接和十六方向预览](previews/README.md)，以及 MP4。
 
@@ -33,13 +85,7 @@ python3 scripts/install.py lahm-classic-orange
 
 不想运行脚本也可以：把 `pets/` 中所选宠物的整个目录复制到 `~/.codex/pets/`。自定义数据目录、Windows 和已有同名宠物的处理方式见 [安装说明](docs/installation.md)。
 
-安装后，在 Codex 的宠物选择入口中选择相应名称。若新条目未出现，可以重启应用刷新。具体入口和动画触发方式取决于客户端版本。
-
-## 现在验证到了哪里？
-
-三款发行精灵图均通过文件结构与资源质量检查；每款包含九组标准动画和十六个观察方向。安装工具在隔离目录测试，不会拿你正在使用的宠物做覆盖实验。
-
-**尚未完成 Codex 应用内的菜单识别、激活及全部状态触发实测**，目前不承诺某个客户端版本已完全兼容。检查范围、保留的评审警告和 NONO 的打包修正见 [验收说明](docs/validation.md)。
+安装后，在 Codex 的宠物选择入口中选择相应名称。若新条目未出现，可以重启应用刷新。具体入口和动画触发方式取决于客户端版本。作者已在自己的 Codex 客户端中实测，反馈使用正常；[检查记录](docs/validation.md)保留了资源和安装工具的验证范围。
 
 ## 仓库里有什么？
 
@@ -52,6 +98,6 @@ python3 scripts/install.py lahm-classic-orange
 
 这是非官方的角色重绘与动画资源包，不代表原游戏或 OpenAI。角色来自《摩尔庄园》和《赛尔号》，AI 辅助重绘并不意味着我们拥有原角色的权利。
 
-代码许可证和角色素材的公开再分发依据仍待确认；目前不要把整个包当作 MIT、CC0 或可自由商用的素材。详见 [角色来源](CREDITS.md) 和 [素材权利说明](ASSET_RIGHTS.md)。
+自行编写的安装脚本与测试采用 [MIT 许可证](LICENSE)。角色形象、名称及相关素材的权利归各自原权利方所有，不在这份代码许可证的授权范围内；本项目不声称已取得原作的官方授权，也不授予这些素材的商用或再分发权利。详见 [角色来源](CREDITS.md) 和 [素材权利说明](ASSET_RIGHTS.md)。
 
-当前仓库已准备本地安装资源，尚未公开发布。[发布准备状态](docs/release-checklist.md)
+[GitHub 仓库](https://github.com/CypherHK/codex-classic-pets) · [发布记录](docs/release-checklist.md)
