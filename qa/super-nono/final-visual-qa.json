@@ -1,0 +1,13 @@
+{
+  "visual_qa": "pass",
+  "qa_note": "The repaired jump has a clear low-high-low arc, while stable-slots preserves unclipped coherent motion and Super NONO identity across every state and look.",
+  "repair_rows": [],
+  "review_warnings": [
+    "stable-slots accepted after visual playback confirmed stable registration and no clipping",
+    "112.5 vertical cue is intentionally subtle",
+    "337.5 horizontal cue is intentionally subtle",
+    "blind intermediate-axis ambiguity accepted because the labeled loop is coherent",
+    "continuity outliers and alpha-hole candidates are intentional antenna or fin negative spaces with no body seam or snap",
+    "final despill and v2 validation passed"
+  ]
+}

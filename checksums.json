@@ -1,0 +1,11 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "pets/lahm-classic-orange/pet.json": "a3ee49678a9f54e9b9aa1c35ac0839d6a313793249ef2c76a22ba97eabb2eb4e",
+    "pets/lahm-classic-orange/spritesheet.webp": "aff015eca7eb30f5daddd7be7f66dedec61523029f483f5bf34569d46a3b0d29",
+    "pets/super-lahm-classic/pet.json": "d66536650a1b8b87593b20ea4afd14e4451f8f982f491e860533afb59f35aeeb",
+    "pets/super-lahm-classic/spritesheet.webp": "3bde29ad554ebaa829fc3042d2246384a7a41f4671ef77c8cefbe724dbc7ab39",
+    "pets/super-nono/pet.json": "3fc56d4f728d3c6411f735d81cfd23689ea403567aab0a205c15ed2b55d7bfc9",
+    "pets/super-nono/spritesheet.webp": "9807688ff69123679b0efcd7f88f31ce3b24085ded91db647ae490c674f0b20a"
+  }
+}

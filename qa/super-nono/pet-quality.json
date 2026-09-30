@@ -1,0 +1,77 @@
+{
+  "ok": true,
+  "atlas": "pets/super-nono/spritesheet.webp",
+  "encoded_bytes": 2061306,
+  "sha256": "9807688ff69123679b0efcd7f88f31ce3b24085ded91db647ae490c674f0b20a",
+  "jump": {
+    "idle_baseline": 196,
+    "jump_baselines": [
+      201,
+      168,
+      136,
+      170,
+      202
+    ],
+    "airborne_lift_pixels": 66,
+    "landing_delta_pixels": 6
+  },
+  "look_registration": {
+    "neutral_center_x": 96.0,
+    "look_centers_x": [
+      95.5,
+      96.5,
+      96.0,
+      95.5,
+      94.0,
+      92.5,
+      97.0,
+      96.5,
+      95.5,
+      96.5,
+      96.5,
+      97.5,
+      99.0,
+      98.0,
+      100.0,
+      96.0
+    ],
+    "look_widths": [
+      181,
+      179,
+      176,
+      173,
+      164,
+      155,
+      160,
+      167,
+      173,
+      157,
+      155,
+      147,
+      138,
+      138,
+      136,
+      174
+    ],
+    "maximum_center_drift_pixels": 4.0,
+    "maximum_width_ratio": 1.3308823529411764
+  },
+  "errors": [],
+  "warnings": [
+    "look direction 112.5 accepted with a reviewed warning",
+    "look direction 337.5 accepted with a reviewed warning",
+    "000 has transparent interior hole rows (y=12, y=13, y=14, y=15, +53 more)",
+    "022.5 has transparent interior hole rows (y=19, y=20, y=21, y=22, +47 more)",
+    "045 has transparent interior hole rows (y=24, y=25, y=26, y=27, +27 more)",
+    "067.5 has transparent interior hole rows (y=23, y=24, y=25, y=26, +24 more)",
+    "180 has transparent interior hole rows (y=179, y=180, y=181, y=182)",
+    "202.5 has transparent interior hole rows (y=25, y=180)",
+    "225 has transparent interior hole rows (y=180)",
+    "337.5 has transparent interior hole rows (y=22, y=23, y=24, y=25, +32 more)",
+    "067.5->090 diff is a local outlier (3556 pixels vs neighbor average 1936)",
+    "157.5->180 diff is a local outlier (6621 pixels vs neighbor average 3703)",
+    "157.5->180 center shift is high (13.0px)",
+    "225->247.5 diff is a local outlier (3354 pixels vs neighbor average 2095)",
+    "315->337.5 diff is a local outlier (5415 pixels vs neighbor average 2858)"
+  ]
+}

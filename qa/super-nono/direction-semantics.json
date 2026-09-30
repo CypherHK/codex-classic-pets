@@ -1,0 +1,128 @@
+{
+  "ok": true,
+  "reviewed_by": "independent-final-visual-qa",
+  "visual_qa": "pass",
+  "qa_note": "The repaired jump has a clear low-high-low arc; stable-slots preserves unclipped coherent motion and identity across every state and look.",
+  "directions": [
+    {
+      "direction": "000",
+      "verdict": "pass",
+      "expected": "up",
+      "observed": "high eye bars on a horizontally centered face",
+      "reason": "unmistakable up cardinal"
+    },
+    {
+      "direction": "022.5",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "screen-right shell yaw and high eye bars",
+      "reason": "both axes visible"
+    },
+    {
+      "direction": "045",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "stronger screen-right face reveal and high eye bars",
+      "reason": "both axes visible"
+    },
+    {
+      "direction": "067.5",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "near-right yaw and high eye bars",
+      "reason": "continuous approach to 090"
+    },
+    {
+      "direction": "090",
+      "verdict": "pass",
+      "expected": "right",
+      "observed": "unmistakable screen-right face yaw with center-height eyes",
+      "reason": "right cardinal hard gate passes"
+    },
+    {
+      "direction": "112.5",
+      "verdict": "warning",
+      "expected": "down-right",
+      "observed": "clear screen-right yaw with subtle eye lowering",
+      "reason": "horizontal axis clear; labeled loop continues downward correctly"
+    },
+    {
+      "direction": "135",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "screen-right yaw and low flattened eye bars",
+      "reason": "both axes visible"
+    },
+    {
+      "direction": "157.5",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "remaining screen-right yaw and low eye bars",
+      "reason": "one step before down"
+    },
+    {
+      "direction": "180",
+      "verdict": "pass",
+      "expected": "down",
+      "observed": "low eye bars on a centered frontal face",
+      "reason": "down cardinal hard gate passes"
+    },
+    {
+      "direction": "202.5",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "screen-left yaw begins with low eye bars",
+      "reason": "both axes visible"
+    },
+    {
+      "direction": "225",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "stronger screen-left yaw and low eye bars",
+      "reason": "both axes visible"
+    },
+    {
+      "direction": "247.5",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "near-left yaw and low eye bars",
+      "reason": "one step before left"
+    },
+    {
+      "direction": "270",
+      "verdict": "pass",
+      "expected": "left",
+      "observed": "unmistakable screen-left face yaw with center-height eyes",
+      "reason": "left cardinal hard gate passes"
+    },
+    {
+      "direction": "292.5",
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "screen-left yaw and high eye bars",
+      "reason": "both axes visible"
+    },
+    {
+      "direction": "315",
+      "verdict": "pass",
+      "expected": "up-left",
+      "observed": "strong screen-left yaw and high short eye bars",
+      "reason": "both axes visible"
+    },
+    {
+      "direction": "337.5",
+      "verdict": "warning",
+      "expected": "up-left",
+      "observed": "very high eye bars with subtle remaining screen-left cue",
+      "reason": "vertical axis clear and loop closes to 000 without reversal"
+    }
+  ],
+  "review_warnings": [
+    "stable-slots accepted for all rows after playback confirmed stable registration and no clipping",
+    "112.5 vertical cue is intentionally subtle",
+    "337.5 horizontal cue is intentionally subtle",
+    "blind intermediate-axis ambiguity accepted because the labeled loop is coherent",
+    "continuity outliers and alpha-hole candidates are intentional antenna or fin negative spaces with no body seam or snap",
+    "final despill and v2 validation are authoritative for chroma"
+  ]
+}

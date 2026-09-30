@@ -1,0 +1,67 @@
+{
+  "ok": true,
+  "atlas": "pets/lahm-classic-orange/spritesheet.webp",
+  "encoded_bytes": 1366810,
+  "sha256": "aff015eca7eb30f5daddd7be7f66dedec61523029f483f5bf34569d46a3b0d29",
+  "jump": {
+    "idle_baseline": 198,
+    "jump_baselines": [
+      198,
+      180,
+      152,
+      180,
+      198
+    ],
+    "airborne_lift_pixels": 46,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 100.0,
+    "look_centers_x": [
+      97.0,
+      97.5,
+      96.5,
+      95.5,
+      94.0,
+      92.5,
+      93.5,
+      92.5,
+      96.5,
+      96.0,
+      95.0,
+      92.5,
+      93.5,
+      95.0,
+      96.5,
+      100.0
+    ],
+    "look_widths": [
+      122,
+      121,
+      119,
+      117,
+      120,
+      121,
+      121,
+      119,
+      129,
+      126,
+      122,
+      121,
+      123,
+      124,
+      123,
+      122
+    ],
+    "maximum_center_drift_pixels": 7.5,
+    "maximum_width_ratio": 1.1025641025641026
+  },
+  "errors": [],
+  "warnings": [
+    "look direction 112.5 accepted with a reviewed warning",
+    "look direction 247.5 accepted with a reviewed warning",
+    "157.5->180 diff is a local outlier (1664 pixels vs neighbor average 888)",
+    "270->292.5 diff is a local outlier (1352 pixels vs neighbor average 864)",
+    "337.5->000 diff is a local outlier (2191 pixels vs neighbor average 800)"
+  ]
+}
