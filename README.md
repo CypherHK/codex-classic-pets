@@ -101,3 +101,7 @@ python3 scripts/install.py lahm-classic-orange
 自行编写的安装脚本与测试采用 [MIT 许可证](LICENSE)。角色形象、名称及相关素材的权利归各自原权利方所有，不在这份代码许可证的授权范围内；本项目不声称已取得原作的官方授权，也不授予这些素材的商用或再分发权利。详见 [角色来源](CREDITS.md) 和 [素材权利说明](ASSET_RIGHTS.md)。
 
 [GitHub 仓库](https://github.com/CypherHK/codex-classic-pets) · [发布记录](docs/release-checklist.md)
+
+## 状态
+
+**已封存（2026-10-09）**：Codex 宠物素材已公开发布，短期无新建计划。2026-10-09 的 Projects 回顾决定封存，不再推进，内容保留；需要时从本节开始读。
